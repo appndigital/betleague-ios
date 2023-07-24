@@ -8,25 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B7061E202A6EA2B900885E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E1F2A6EA2B900885E80 /* AppDelegate.swift */; };
-		B7061E222A6EA2B900885E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E212A6EA2B900885E80 /* SceneDelegate.swift */; };
-		B7061E242A6EA2B900885E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E232A6EA2B900885E80 /* ViewController.swift */; };
-		B7061E272A6EA2B900885E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7061E252A6EA2B900885E80 /* Main.storyboard */; };
 		B7061E292A6EA2BA00885E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7061E282A6EA2BA00885E80 /* Assets.xcassets */; };
 		B7061E2C2A6EA2BA00885E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7061E2A2A6EA2BA00885E80 /* LaunchScreen.storyboard */; };
 		B7061E372A6EA2BA00885E80 /* betleagues_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E362A6EA2BA00885E80 /* betleagues_iosTests.swift */; };
-		B7061E412A6EA2BA00885E80 /* betleagues_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E402A6EA2BA00885E80 /* betleagues_iosUITests.swift */; };
-		B7061E432A6EA2BA00885E80 /* betleagues_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E422A6EA2BA00885E80 /* betleagues_iosUITestsLaunchTests.swift */; };
+		B7061E502A6EA6BF00885E80 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E4F2A6EA6BF00885E80 /* Coordinator.swift */; };
+		B7061E542A6EA8B100885E80 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E532A6EA8B100885E80 /* MainViewController.swift */; };
+		B7061E572A6EA8E800885E80 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B7061E562A6EA8E800885E80 /* SnapKit */; };
+		B7061E5A2A6EA8FE00885E80 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B7061E592A6EA8FE00885E80 /* Alamofire */; };
+		B7061E5D2A6EABD800885E80 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E5C2A6EABD800885E80 /* UIColor+Extension.swift */; };
+		B7061E602A6EB30000885E80 /* LeagueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E5F2A6EB30000885E80 /* LeagueService.swift */; };
+		B7061E622A6EB34E00885E80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E612A6EB34E00885E80 /* Constants.swift */; };
+		B7061E652A6EB52B00885E80 /* LeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E642A6EB52B00885E80 /* LeagueModel.swift */; };
+		B7061E672A6EB5EC00885E80 /* BetLeagueError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E662A6EB5EC00885E80 /* BetLeagueError.swift */; };
+		B7061E692A6EB69200885E80 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E682A6EB69200885E80 /* TeamModel.swift */; };
+		B7061E6C2A6EC4D000885E80 /* LeagueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E6B2A6EC4D000885E80 /* LeagueRepository.swift */; };
+		B7061E6E2A6EDA2000885E80 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E6D2A6EDA2000885E80 /* MainViewModel.swift */; };
+		B7061E712A6EEC6400885E80 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B7061E702A6EEC6400885E80 /* SDWebImage */; };
+		B7061E732A6EEC9F00885E80 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E722A6EEC9F00885E80 /* TeamCell.swift */; };
+		B7061E762A6EF12200885E80 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7061E752A6EF12200885E80 /* TeamCell.xib */; };
+		B7061E792A6F150F00885E80 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B7061E782A6F150F00885E80 /* SDWebImage */; };
+		B7061E7C2A6F156A00885E80 /* MockLeagueListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E7B2A6F156A00885E80 /* MockLeagueListModel.swift */; };
+		B7061E7E2A6F20F300885E80 /* MockLeagueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E7D2A6F20F300885E80 /* MockLeagueService.swift */; };
+		B7061E802A6F267200885E80 /* MockTeamListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E7F2A6F267200885E80 /* MockTeamListModel.swift */; };
+		B7061E822A6F27CA00885E80 /* MockLeagueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E812A6F27CA00885E80 /* MockLeagueRepository.swift */; };
+		B7061E842A6F2C4C00885E80 /* XCTestUseCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7061E832A6F2C4C00885E80 /* XCTestUseCase+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B7061E332A6EA2BA00885E80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7061E142A6EA2B900885E80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7061E1B2A6EA2B900885E80;
-			remoteInfo = "betleagues-ios";
-		};
-		B7061E3D2A6EA2BA00885E80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7061E142A6EA2B900885E80 /* Project object */;
 			proxyType = 1;
@@ -38,17 +47,28 @@
 /* Begin PBXFileReference section */
 		B7061E1C2A6EA2B900885E80 /* betleagues-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "betleagues-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7061E1F2A6EA2B900885E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7061E212A6EA2B900885E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7061E232A6EA2B900885E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7061E262A6EA2B900885E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7061E282A6EA2BA00885E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7061E2B2A6EA2BA00885E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7061E2D2A6EA2BA00885E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7061E322A6EA2BA00885E80 /* betleagues-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "betleagues-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7061E362A6EA2BA00885E80 /* betleagues_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betleagues_iosTests.swift; sourceTree = "<group>"; };
-		B7061E3C2A6EA2BA00885E80 /* betleagues-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "betleagues-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7061E402A6EA2BA00885E80 /* betleagues_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betleagues_iosUITests.swift; sourceTree = "<group>"; };
-		B7061E422A6EA2BA00885E80 /* betleagues_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betleagues_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7061E4F2A6EA6BF00885E80 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B7061E532A6EA8B100885E80 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B7061E5C2A6EABD800885E80 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B7061E5F2A6EB30000885E80 /* LeagueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueService.swift; sourceTree = "<group>"; };
+		B7061E612A6EB34E00885E80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7061E642A6EB52B00885E80 /* LeagueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueModel.swift; sourceTree = "<group>"; };
+		B7061E662A6EB5EC00885E80 /* BetLeagueError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetLeagueError.swift; sourceTree = "<group>"; };
+		B7061E682A6EB69200885E80 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		B7061E6B2A6EC4D000885E80 /* LeagueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueRepository.swift; sourceTree = "<group>"; };
+		B7061E6D2A6EDA2000885E80 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B7061E722A6EEC9F00885E80 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		B7061E752A6EF12200885E80 /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		B7061E7B2A6F156A00885E80 /* MockLeagueListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeagueListModel.swift; sourceTree = "<group>"; };
+		B7061E7D2A6F20F300885E80 /* MockLeagueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeagueService.swift; sourceTree = "<group>"; };
+		B7061E7F2A6F267200885E80 /* MockTeamListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTeamListModel.swift; sourceTree = "<group>"; };
+		B7061E812A6F27CA00885E80 /* MockLeagueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeagueRepository.swift; sourceTree = "<group>"; };
+		B7061E832A6F2C4C00885E80 /* XCTestUseCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestUseCase+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7061E712A6EEC6400885E80 /* SDWebImage in Frameworks */,
+				B7061E572A6EA8E800885E80 /* SnapKit in Frameworks */,
+				B7061E5A2A6EA8FE00885E80 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,13 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7061E392A6EA2BA00885E80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B7061E792A6F150F00885E80 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +98,8 @@
 			children = (
 				B7061E1E2A6EA2B900885E80 /* betleagues-ios */,
 				B7061E352A6EA2BA00885E80 /* betleagues-iosTests */,
-				B7061E3F2A6EA2BA00885E80 /* betleagues-iosUITests */,
 				B7061E1D2A6EA2B900885E80 /* Products */,
+				B7061E772A6F150F00885E80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +108,6 @@
 			children = (
 				B7061E1C2A6EA2B900885E80 /* betleagues-ios.app */,
 				B7061E322A6EA2BA00885E80 /* betleagues-iosTests.xctest */,
-				B7061E3C2A6EA2BA00885E80 /* betleagues-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +115,13 @@
 		B7061E1E2A6EA2B900885E80 /* betleagues-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B7061E5E2A6EB2BF00885E80 /* Service */,
+				B7061E632A6EB51900885E80 /* Model */,
+				B7061E6A2A6EC46C00885E80 /* Repository */,
+				B7061E512A6EA7B800885E80 /* UI */,
+				B7061E5B2A6EABBF00885E80 /* Global */,
 				B7061E1F2A6EA2B900885E80 /* AppDelegate.swift */,
-				B7061E212A6EA2B900885E80 /* SceneDelegate.swift */,
-				B7061E232A6EA2B900885E80 /* ViewController.swift */,
-				B7061E252A6EA2B900885E80 /* Main.storyboard */,
+				B7061E4F2A6EA6BF00885E80 /* Coordinator.swift */,
 				B7061E282A6EA2BA00885E80 /* Assets.xcassets */,
 				B7061E2A2A6EA2BA00885E80 /* LaunchScreen.storyboard */,
 				B7061E2D2A6EA2BA00885E80 /* Info.plist */,
@@ -113,18 +132,91 @@
 		B7061E352A6EA2BA00885E80 /* betleagues-iosTests */ = {
 			isa = PBXGroup;
 			children = (
+				B7061E7A2A6F154B00885E80 /* Mock */,
 				B7061E362A6EA2BA00885E80 /* betleagues_iosTests.swift */,
+				B7061E832A6F2C4C00885E80 /* XCTestUseCase+Extension.swift */,
 			);
 			path = "betleagues-iosTests";
 			sourceTree = "<group>";
 		};
-		B7061E3F2A6EA2BA00885E80 /* betleagues-iosUITests */ = {
+		B7061E512A6EA7B800885E80 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B7061E402A6EA2BA00885E80 /* betleagues_iosUITests.swift */,
-				B7061E422A6EA2BA00885E80 /* betleagues_iosUITestsLaunchTests.swift */,
+				B7061E522A6EA7C500885E80 /* Main */,
 			);
-			path = "betleagues-iosUITests";
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7061E522A6EA7C500885E80 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E742A6EF11100885E80 /* Cell */,
+				B7061E532A6EA8B100885E80 /* MainViewController.swift */,
+				B7061E6D2A6EDA2000885E80 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B7061E5B2A6EABBF00885E80 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E5C2A6EABD800885E80 /* UIColor+Extension.swift */,
+				B7061E612A6EB34E00885E80 /* Constants.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B7061E5E2A6EB2BF00885E80 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E5F2A6EB30000885E80 /* LeagueService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B7061E632A6EB51900885E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E642A6EB52B00885E80 /* LeagueModel.swift */,
+				B7061E682A6EB69200885E80 /* TeamModel.swift */,
+				B7061E662A6EB5EC00885E80 /* BetLeagueError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7061E6A2A6EC46C00885E80 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E6B2A6EC4D000885E80 /* LeagueRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B7061E742A6EF11100885E80 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E722A6EEC9F00885E80 /* TeamCell.swift */,
+				B7061E752A6EF12200885E80 /* TeamCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B7061E772A6F150F00885E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7061E7A2A6F154B00885E80 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				B7061E7B2A6F156A00885E80 /* MockLeagueListModel.swift */,
+				B7061E7F2A6F267200885E80 /* MockTeamListModel.swift */,
+				B7061E7D2A6F20F300885E80 /* MockLeagueService.swift */,
+				B7061E812A6F27CA00885E80 /* MockLeagueRepository.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +235,11 @@
 			dependencies = (
 			);
 			name = "betleagues-ios";
+			packageProductDependencies = (
+				B7061E562A6EA8E800885E80 /* SnapKit */,
+				B7061E592A6EA8FE00885E80 /* Alamofire */,
+				B7061E702A6EEC6400885E80 /* SDWebImage */,
+			);
 			productName = "betleagues-ios";
 			productReference = B7061E1C2A6EA2B900885E80 /* betleagues-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -161,27 +258,12 @@
 				B7061E342A6EA2BA00885E80 /* PBXTargetDependency */,
 			);
 			name = "betleagues-iosTests";
+			packageProductDependencies = (
+				B7061E782A6F150F00885E80 /* SDWebImage */,
+			);
 			productName = "betleagues-iosTests";
 			productReference = B7061E322A6EA2BA00885E80 /* betleagues-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B7061E3B2A6EA2BA00885E80 /* betleagues-iosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B7061E4C2A6EA2BA00885E80 /* Build configuration list for PBXNativeTarget "betleagues-iosUITests" */;
-			buildPhases = (
-				B7061E382A6EA2BA00885E80 /* Sources */,
-				B7061E392A6EA2BA00885E80 /* Frameworks */,
-				B7061E3A2A6EA2BA00885E80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B7061E3E2A6EA2BA00885E80 /* PBXTargetDependency */,
-			);
-			name = "betleagues-iosUITests";
-			productName = "betleagues-iosUITests";
-			productReference = B7061E3C2A6EA2BA00885E80 /* betleagues-iosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,10 +282,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = B7061E1B2A6EA2B900885E80;
 					};
-					B7061E3B2A6EA2BA00885E80 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B7061E1B2A6EA2B900885E80;
-					};
 				};
 			};
 			buildConfigurationList = B7061E172A6EA2B900885E80 /* Build configuration list for PBXProject "betleagues-ios" */;
@@ -215,13 +293,17 @@
 				Base,
 			);
 			mainGroup = B7061E132A6EA2B900885E80;
+			packageReferences = (
+				B7061E552A6EA8E800885E80 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B7061E582A6EA8FE00885E80 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B7061E6F2A6EEC6400885E80 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = B7061E1D2A6EA2B900885E80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B7061E1B2A6EA2B900885E80 /* betleagues-ios */,
 				B7061E312A6EA2BA00885E80 /* betleagues-iosTests */,
-				B7061E3B2A6EA2BA00885E80 /* betleagues-iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7061E762A6EF12200885E80 /* TeamCell.xib in Resources */,
 				B7061E2C2A6EA2BA00885E80 /* LaunchScreen.storyboard in Resources */,
 				B7061E292A6EA2BA00885E80 /* Assets.xcassets in Resources */,
-				B7061E272A6EA2B900885E80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B7061E302A6EA2BA00885E80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7061E3A2A6EA2BA00885E80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7061E242A6EA2B900885E80 /* ViewController.swift in Sources */,
+				B7061E6C2A6EC4D000885E80 /* LeagueRepository.swift in Sources */,
+				B7061E652A6EB52B00885E80 /* LeagueModel.swift in Sources */,
+				B7061E542A6EA8B100885E80 /* MainViewController.swift in Sources */,
+				B7061E692A6EB69200885E80 /* TeamModel.swift in Sources */,
+				B7061E602A6EB30000885E80 /* LeagueService.swift in Sources */,
+				B7061E502A6EA6BF00885E80 /* Coordinator.swift in Sources */,
 				B7061E202A6EA2B900885E80 /* AppDelegate.swift in Sources */,
-				B7061E222A6EA2B900885E80 /* SceneDelegate.swift in Sources */,
+				B7061E5D2A6EABD800885E80 /* UIColor+Extension.swift in Sources */,
+				B7061E732A6EEC9F00885E80 /* TeamCell.swift in Sources */,
+				B7061E622A6EB34E00885E80 /* Constants.swift in Sources */,
+				B7061E672A6EB5EC00885E80 /* BetLeagueError.swift in Sources */,
+				B7061E6E2A6EDA2000885E80 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7061E802A6F267200885E80 /* MockTeamListModel.swift in Sources */,
+				B7061E822A6F27CA00885E80 /* MockLeagueRepository.swift in Sources */,
+				B7061E842A6F2C4C00885E80 /* XCTestUseCase+Extension.swift in Sources */,
+				B7061E7C2A6F156A00885E80 /* MockLeagueListModel.swift in Sources */,
+				B7061E7E2A6F20F300885E80 /* MockLeagueService.swift in Sources */,
 				B7061E372A6EA2BA00885E80 /* betleagues_iosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7061E382A6EA2BA00885E80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7061E412A6EA2BA00885E80 /* betleagues_iosUITests.swift in Sources */,
-				B7061E432A6EA2BA00885E80 /* betleagues_iosUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +369,9 @@
 			target = B7061E1B2A6EA2B900885E80 /* betleagues-ios */;
 			targetProxy = B7061E332A6EA2BA00885E80 /* PBXContainerItemProxy */;
 		};
-		B7061E3E2A6EA2BA00885E80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B7061E1B2A6EA2B900885E80 /* betleagues-ios */;
-			targetProxy = B7061E3D2A6EA2BA00885E80 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B7061E252A6EA2B900885E80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7061E262A6EA2B900885E80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7061E2A2A6EA2BA00885E80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +509,9 @@
 				INFOPLIST_FILE = "betleagues-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +537,9 @@
 				INFOPLIST_FILE = "betleagues-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,42 +593,6 @@
 			};
 			name = Release;
 		};
-		B7061E4D2A6EA2BA00885E80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M624WY55M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appndigital.betleagues-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "betleagues-ios";
-			};
-			name = Debug;
-		};
-		B7061E4E2A6EA2BA00885E80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M624WY55M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appndigital.betleagues-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "betleagues-ios";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,16 +623,57 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7061E4C2A6EA2BA00885E80 /* Build configuration list for PBXNativeTarget "betleagues-iosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7061E4D2A6EA2BA00885E80 /* Debug */,
-				B7061E4E2A6EA2BA00885E80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7061E552A6EA8E800885E80 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B7061E582A6EA8FE00885E80 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B7061E6F2A6EEC6400885E80 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7061E562A6EA8E800885E80 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7061E552A6EA8E800885E80 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B7061E592A6EA8FE00885E80 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7061E582A6EA8FE00885E80 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B7061E702A6EEC6400885E80 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7061E6F2A6EEC6400885E80 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B7061E782A6F150F00885E80 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7061E6F2A6EEC6400885E80 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7061E142A6EA2B900885E80 /* Project object */;
 }
